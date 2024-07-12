@@ -40,12 +40,12 @@ const navMenus: INavMenuItem[] = [
     path: "/#projects",
     section: "projects",
   },
-  {
-    id: "contact",
-    title: "Contact",
-    path: "/#contact",
-    section: "contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  //   path: "/#contact",
+  //   section: "contact",
+  // },
 ];
 
 export default navMenus;
@@ -81,9 +81,9 @@ export const menuItems: INavItem[] = [
     link: "/#projects",
     icon: faLaptopCode,
   },
-  {
-    name: "Contact",
-    link: "/#contact",
-    icon: faEnvelope,
-  },
+  // {
+  //   name: "Contact",
+  //   link: "/#contact",
+  //   icon: faEnvelope,
+  // },
 ];

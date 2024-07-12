@@ -14,7 +14,7 @@ const HomeSection3 = ({ id }: { id: string }) => {
       <ConstraintedBox classNames="p-4 py-16">
         <SectionTitle>Experiences</SectionTitle>
 
-        <GridBox classNames="justify-items-center grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-16">
+        <GridBox classNames="justify-items-center grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-16">
           {experiences.map((experience, index) => {
             return (
               <ExperienceItem key={`experience-${index}`} data={experience} />

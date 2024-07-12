@@ -26,9 +26,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Jaivik Bhanushali",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Welcome to Jaivik's portfolio. Explore my projects, skills, and professional journey in web development, design, and technology. Discover innovative solutions and creative designs tailored to meet diverse needs. Let's connect and collaborate on future projects.",
   robots: {
     index: true,
     follow: true,
@@ -49,16 +49,16 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
+    "jaivik bhanushali",
+    "jaivik",
+    "jaiv bhanushali",
+    "bhanushali jaivik",
+    "jaivik-bhanushali",
+    "freelancer",
+    "web developer",
     "full stack developer",
     "indian developer",
-    "nixrajput github",
+    "jaivik github",
   ],
 };
 

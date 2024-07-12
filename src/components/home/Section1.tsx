@@ -21,16 +21,16 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
         <Column classNames="w-full items-center justify-center">
           <div className="inline-flex items-center">
             <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
-              Hi there, I am
+              Hi👋, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput", "@nixrajput"]}
+              words={["Jaivik Bhanushali", "Web Developer", "Web Designer", "Full Stack Developer"]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
-          <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Software Engineer & Full Stack Developer
-          </p>
+          {/*<p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">*/}
+          {/*  Full Stack Developer*/}
+          {/*</p>*/}
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
             <TalkButton />

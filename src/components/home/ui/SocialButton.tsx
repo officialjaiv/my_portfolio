@@ -5,7 +5,7 @@ import Link from "next/link";
 const SocialButton = ({ text, icon, url }: ISocialLinkItem) => {
   return (
     <Link
-      className="relative flex flex-row bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center text-center justify-center gap-2 cursor-pointer animated__hover"
+      className="relative flex flex-row bg-[var(--textColor10)] p-4 border-2 border-transparent hover:border-[var(--primaryColor)] rounded-[var(--borderRadius)] items-center text-center justify-center gap-2 cursor-pointer animated__hover transition-all duration-300"
       href={url}
       target="_blank"
     >
