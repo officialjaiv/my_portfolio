@@ -6,14 +6,14 @@ const services: IServiceItem[] = [
     title: "Web Development",
     icons: [
       "/skills/redux.svg",
-      "/skills/react.svg",
       "/skills/nextjs.png",
+      "/skills/react.svg",
       "/skills/html.svg",
       "/skills/css.svg",
     ],
-    shortDescription: "I build visually stunning and user-friendly websites.",
+    shortDescription: "I provide expert web development, creating responsive, user-friendly websites that drive results.",
     description:
-        "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive, and SEO-friendly browsing experience. Enhance your online identity with quality.",
+        "As a skilled web developer, I build responsive, user-friendly websites tailored to your needs. My services include front-end and back-end development, website maintenance, and performance optimization, ensuring your online presence is secure and engaging. Let's create a website that stands out and drives success.",
   },
   {
     id: 2,
@@ -25,9 +25,9 @@ const services: IServiceItem[] = [
       "/skills/express.svg",
       "/skills/aws.svg",
     ],
-    shortDescription: "I create robust and scalable backend infrastructures.",
+    shortDescription: "I specialize in robust backend development, ensuring your applications are fast, secure, and scalable.",
     description:
-        "I enhance digital applications with robust, scalable backend infrastructures. I develop efficient database structures, APIs, and configure servers for optimal performance, security, and scalability, ensuring your applications handle high traffic and complex data management seamlessly. Rely on strong backend solutions.",
+        "With extensive experience in backend development, I build the server-side logic and databases that power your applications. My focus is on creating efficient, secure, and scalable solutions that can handle high traffic and complex functionalities. Whether you need an API, microservices architecture, or database management, I ensure your backend is reliable and optimized for performance.",
   },
   {
     id: 3,
@@ -35,14 +35,14 @@ const services: IServiceItem[] = [
     icons: [
       "/skills/socket-io.png",
       "/skills/dart.svg",
+      "/skills/ionic.svg",
       "/skills/flutter.svg",
-      "/skills/getx.png",
       "/skills/firebase.svg",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I develop intuitive mobile apps that provide seamless user experiences across all devices.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "I offer comprehensive mobile app development services, creating apps that are user-friendly, visually appealing, and performant. From initial design to deployment, I handle every aspect of the development process. My apps are optimized for both iOS and Android platforms, ensuring a seamless user experience. Whether you need a new app or want to improve an existing one, I deliver solutions that meet your business goals.",
   },
   {
     id: 4,
@@ -55,9 +55,9 @@ const services: IServiceItem[] = [
       "/skills/ubuntu.png",
     ],
     shortDescription:
-      "I define goals, target audiences, and roadmaps for success.",
+      "I provide strategic insights to guide your product development and ensure market success.",
     description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
+      "My product strategy services help you navigate the complexities of bringing a product to market. I work with you to define your product vision, identify market opportunities, and develop a roadmap for success. By aligning your product development with business goals and customer needs, I ensure your product stands out in the competitive landscape. From ideation to launch, I offer strategic guidance to maximize your product's potential.",
   },
   {
     id: 5,
@@ -69,23 +69,23 @@ const services: IServiceItem[] = [
       "/skills/jenkins.svg",
       "/skills/terraform.svg",
     ],
-    shortDescription: "I streamline development and operations processes.",
+    shortDescription: "I implement DevOps practices to streamline your development and operations processes.",
     description:
-      "I streamline development and operations processes through effective DevOps practices. I implement continuous integration and deployment pipelines, manage cloud infrastructure, and use containerization to ensure efficient, reliable, and scalable software delivery. Improve your workflow with DevOps solutions.",
+      "My DevOps services enhance collaboration between your development and operations teams, leading to faster and more reliable software delivery. I implement continuous integration and continuous deployment (CI/CD) pipelines, automate infrastructure management, and ensure your systems are secure and scalable. By adopting DevOps practices, I help you achieve shorter development cycles, increased deployment frequency, and more dependable releases.",
   },
   {
     id: 6,
     title: "Database Management",
     icons: [
-      "/skills/mysql.svg",
+      "/skills/redis.svg",
       "/skills/postgresql.svg",
       "/skills/mongodb.svg",
-      "/skills/redis.svg",
+      "/skills/mysql.svg",
       "/skills/sqlite.svg",
     ],
-    shortDescription: "I manage and optimize your database systems.",
+    shortDescription: "I offer expert database management to ensure your data is organized, secure, and accessible.",
     description:
-      "I manage and optimize your database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure your data is managed effectively and efficiently.",
+      "I provide comprehensive database management services, ensuring your data is efficiently stored, organized, and protected. From database design and development to maintenance and optimization, I handle all aspects of database management. My focus is on creating secure, scalable, and high-performance databases that meet your business needs. Whether you need a new database system or improvements to an existing one, I deliver solutions that enhance data accessibility and reliability.",
   },
 ];
 

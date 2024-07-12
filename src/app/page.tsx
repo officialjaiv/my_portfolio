@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import PageBox from "@/components/core/PageBox";
 import { menuItems } from "@/data/navMenus";
 import HomeSection1 from "@/components/home/Section1";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const HomeSection2 = dynamic(() => import("@/components/home/Section2"));
 const HomeSection3 = dynamic(() => import("@/components/home/Section3"));
@@ -17,6 +18,7 @@ const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
 const Home = () => {
   return (
     <PageBox>
+      <SpeedInsights/>
       <FloatingNavbar className="app_nav" navItems={menuItems} />
       <HomeSection1 id="hero" />
       <HomeSection2 id="services" />
