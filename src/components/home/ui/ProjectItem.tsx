@@ -15,11 +15,11 @@ import CardBox from "@/components/core/CardBox";
 const ProjectItem = ({project}: { project: IProjectItem }) => {
     const router = useRouter();
 
-    const _handleNavigateToPage = (id: string) => {
-        if (!id || id.length < 1) return;
-
-        router.push(`/projects?id=${id}`);
-    };
+    // const _handleNavigateToPage = (id: string) => {
+    //     if (!id || id.length < 1) return;
+    //
+    //     router.push(`/projects?id=${id}`);
+    // };
 
     return (
         <CardBox

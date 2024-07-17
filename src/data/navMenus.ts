@@ -1,12 +1,10 @@
 import { INavItem, INavMenuItem } from "@/types";
 import {
-  faHome,
   faUser,
   faBriefcase,
   faTimeline,
   faAward,
   faLaptopCode,
-  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
 const navMenus: INavMenuItem[] = [
