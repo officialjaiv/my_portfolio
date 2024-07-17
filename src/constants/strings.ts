@@ -23,6 +23,10 @@ class Strings {
   static primaryEmailLink = "mailto:bhanushalijaiv@gmail.com";
   static primaryEmail = "bhanushalijaiv@gmail.com";
 
+  static mNumber = "Mobile Number";
+  static moNumberLink = "tel:+919979877361";
+  static mobileNumber = "+91 99798 77361";
+
   static fullName = "Jaivik Bhanushali";
   static shortName = "jaivbhanushali";
 }

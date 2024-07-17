@@ -5,7 +5,7 @@ import {
   faInstagram,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
 import Strings from "@/constants/strings";
 import type { ISocialLinkItem } from "@/types";
 
@@ -21,6 +21,12 @@ const socialLinks: ISocialLinkItem[] = [
     url: Strings.githubLink,
     icon: faGithub,
     text: Strings.githubUsername,
+  },
+  {
+    name: Strings.mNumber,
+    url: Strings.moNumberLink,
+    icon: faPhone,
+    text: Strings.mobileNumber,
   },
   {
     name: Strings.telegram,

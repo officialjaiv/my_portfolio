@@ -17,7 +17,7 @@ const HomeSection6 = ({id}: { id: string }) => {
 
                 <Column classNames="mt-16 w-full">
                     <GridBox classNames="sm:grid-cols-3 w-full mx-auto gap-4">
-                        {socialLinks.map((link, index) => {
+                        {socialLinks.filter((link, index) => index !== 3).map((link, index) => {
                             return (
                                 <SocialButton
                                     key={`social-link-${index}`}
